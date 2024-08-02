@@ -176,61 +176,7 @@ sup {
 /*
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
-3. Remove gaps between table borders by default.<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maybelline</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-    <div class="hero-page font-arial">
-        <header class="header-hero w-full h-32 bg-black">
-            <DIV class="flex text-white justify-between p-3">
-                <div class="pr-12"><i class="fa-solid fa-magnifying-glass"></i></div>
-                <div class="logo">
-                    <img class="bg-black" src="maybelline-logo.png" alt="logo" width="180em" height="5em">
-                </div>
-                <div class="pr-12">
-                    <i class="fa-solid fa-person"></i>
-                </div>
-            </DIV>    
-            <div class="flex text-white font-bold text-base justify-center">
-                <div class="pr-4">VIRTUAL BEAUTY STUDIO</div>
-                <div class="pr-4">SHOP ALL</div>
-                <div class="pr-4">EYES</div>
-                <div class="pr-4">FACE </div>
-                <div class="pr-4">LIPS</div>
-                <div class="pr-4">TIPS & TRENDS</div>
-                <div class="pr-4">BRAVE TOGETHER</div>
-                <div class="pr-4">ABOUT US</div>
-            </div>    
-        </header>
-
-        <div class="w-full h-full ">
-            <img class="mx-20" src="hero-image.jpg" alt="liptick" height="540px" width="90%">
-            <span class="absolute top-64 left-44 w-80">
-                <img class="h-48 w-48" src="hero-image-background.webp" alt="liptick">
-                <span class="uppercase text-white font-bold text-5xl ">super stay vinyl ink liquid lipstick</span>
-            </span>
-        </div>
-
-    </div>
-
-    <div class="make-up-studio border mt-40 text-red-100">
-        <div class=""> MAKE UP STUDIO </div>
-        <div class=""> Play with our virtual makeup tools & discover new products to keep you on point. </div>
-    </div>
-</body>
-
-</html>
-
+3. Remove gaps between table borders by default.
 */
 
 table {
@@ -608,63 +554,68 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.top-44 {
-  top: 11rem;
-}
-
-.top-32 {
-  top: 8rem;
-}
-
-.top-40 {
-  top: 10rem;
-}
-
-.top-36 {
-  top: 9rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-56 {
-  top: 14rem;
-}
-
-.top-64 {
-  top: 16rem;
-}
-
-.left-10 {
-  left: 2.5rem;
 }
 
 .left-44 {
   left: 11rem;
 }
 
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+.top-64 {
+  top: 16rem;
 }
 
-.mx-48 {
-  margin-left: 12rem;
-  margin-right: 12rem;
+.left-28 {
+  left: 7rem;
 }
 
-.mx-28 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+.left-20 {
+  left: 5rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-9 {
+  bottom: 2.25rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-20 {
@@ -672,8 +623,61 @@ video {
   margin-right: 5rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mt-40 {
   margin-top: 10rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -692,44 +696,72 @@ video {
   height: 100%;
 }
 
-.h-8 {
-  height: 2rem;
+.h-3 {
+  height: 0.75rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-36 {
+  height: 9rem;
+}
+
+.h-11 {
+  height: 2.75rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-4\/5 {
+  height: 80%;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-2\/5 {
+  height: 40%;
+}
+
+.h-3\/5 {
+  height: 60%;
 }
 
 .w-48 {
   width: 12rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .w-full {
   width: 100%;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .w-60 {
@@ -740,8 +772,52 @@ video {
   width: 24rem;
 }
 
-.w-80 {
-  width: 20rem;
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .justify-center {
@@ -752,13 +828,55 @@ video {
   justify-content: space-between;
 }
 
+.gap-2\.5 {
+  gap: 0.625rem;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-gray-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#2d2c2c\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 44 44 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#353535\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 53 53 / var(--tw-bg-opacity));
 }
 
 .p-3 {
@@ -773,13 +891,8 @@ video {
   padding-right: 1rem;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-center {
+  text-align: center;
 }
 
 .text-5xl {
@@ -787,8 +900,44 @@ video {
   line-height: 1;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .uppercase {
@@ -803,4 +952,26 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media only screen and (max-width:1019px){
+  .nav-bar-text{
+    display: none;
+  }
+  
+  .header-hero{
+    height: 59px;
+  }
+}
+
+@media only screen and (max-width:1177px){
+  .hero-image-text{
+    position: absolute
+    left- 10px
+  }
 }
