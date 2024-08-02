@@ -970,8 +970,29 @@ video {
 }
 
 @media only screen and (max-width:1177px){
+  .text-image{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width:1020px){
   .hero-image-text{
-    position: absolute
-    left- 10px
+    position : absolute;
+    top: 12rem;
+    /* left: 3rem; */
+  }
+
+  .hero-sub-image{
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+@media only screen and (max-width:937px){
+  .hero-image-text{
+    position : absolute;
+    top: 5rem;
+    left: 2rem;
+    width: 45%;
   }
 }
