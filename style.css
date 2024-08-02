@@ -1000,18 +1000,37 @@ video {
 @media only screen and (max-width:764px){
   .hero-image-text{
     position : absolute;
-    top: 47rem;
+    top: 35rem;
     left: 2rem;
     width: 70%;
   }
 
    .hero-image{
-    /* width: 100%; */
-     height: 1000px;
+     height: 600px;
      object-fit: cover;
    }
-
+   
    .text-image{
     font-size: 2.5rem;
   }
 }
+
+/* @media only screen and (max-width:597px){
+  /* .hero-image-text{
+    position : absolute;
+    top: 40rem;
+    left: 2rem;
+    width: 70%;
+  } */
+
+   .hero-image{
+    /* width: 100%; */
+     height: 800px;
+     object-fit: cover;
+   }
+
+   /* .text-image{
+    font-size: 2.5rem;
+  }
+   } */
+
