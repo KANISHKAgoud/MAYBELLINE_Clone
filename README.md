@@ -1,3 +1,3 @@
 # MAYBELLINE_Clone
 
-https://kanishkagoud.github.io/MAYBELLINE_Clone/
+https://kanishkagoud.github.io/MAYBELLINE_Clone-using-TAILWIND/
