@@ -730,6 +730,10 @@ body {
   height: 100%;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .w-2\/5 {
   width: 40%;
 }
@@ -768,6 +772,10 @@ body {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-center {
